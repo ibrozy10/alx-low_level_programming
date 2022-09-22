@@ -20,10 +20,11 @@ void print_number(int n)
 		n = n / -10;
 	}
 
-        else
-        {
-     		ld = (char)((n % 10) + '0');
+       	else
+	{
+		ld = (char)((n % 10) + '0');
 		n = n / 10;
+	}
 	}
 
 	r = 0;
@@ -44,7 +45,7 @@ void print_number(int n)
 	while (ct != 0)
 	{
 		_putchar('0');
-                ct--;
+		 ct--;
 	}
 	_putchar(ld);
 }
