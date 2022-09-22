@@ -12,7 +12,7 @@ int main(void)
 	printf("Infinite loop incoming :(\n");
 	i =
 
-		/*
+		/**
 		 *while (i < 10)
 		 *{
 		 *putchar(i);
